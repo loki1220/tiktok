@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "651875813378",
+    "project_id": "veltech-tiktok",
+    "storage_bucket": "veltech-tiktok.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651875813378:android:917924033399f898e3ff1b",
+        "android_client_info": {
+          "package_name": "com.example.tiktok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651875813378-5ivolulf4k7i33no88e7sbnc34nsq9as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9GAD8o3X_lhdyZtf6PsByBqE5RFVrrlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651875813378-5ivolulf4k7i33no88e7sbnc34nsq9as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
