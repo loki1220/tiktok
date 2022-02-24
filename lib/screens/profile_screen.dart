@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:tiktok/resources/auth_methods.dart';
 import 'package:tiktok/resources/firestore_methods.dart';
 import 'package:tiktok/screens/login.dart';
@@ -9,6 +10,8 @@ import 'package:tiktok/utils/utils.dart';
 import 'package:tiktok/widgets/follow_button.dart';
 
 class ProfileScreen extends StatefulWidget {
+  final String uid;
+  const ProfileScreen({Key? key, required this.uid}) : super(key: key);
   //const ProfileScreen({Key? key}) : super(key: key);
 
   @override

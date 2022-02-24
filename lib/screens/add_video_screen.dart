@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:tiktok/utils/colors.dart';
 import 'confirm_screen.dart';
 
 class AddVideoScreen extends StatefulWidget {
@@ -91,7 +90,7 @@ class _AddVideoScreenState extends State<AddVideoScreen> {
           child: Container(
             width: 190,
             height: 50,
-            decoration: BoxDecoration(color: buttonColor),
+            decoration: BoxDecoration(color: Colors.teal),
             child: const Center(
               child: Text(
                 'Add Video',

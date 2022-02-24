@@ -1,39 +1,3 @@
-import 'package:flutter/material.dart';
-
-class SearchScreen extends StatefulWidget {
-  const SearchScreen({Key? key}) : super(key: key);
-
-  @override
-  _SearchScreenState createState() => _SearchScreenState();
-}
-
-class _SearchScreenState extends State<SearchScreen> {
-  TextEditingController searchController = TextEditingController();
-  bool isShowUsers = false;
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-          backgroundColor: Colors.black,
-          title: Form(
-            child: TextFormField(
-              controller: searchController,
-              decoration:
-                  const InputDecoration(labelText: 'Search for a user...'),
-              onFieldSubmitted: (String _) {
-                setState(() {
-                  isShowUsers = true;
-                });
-                print(_);
-              },
-            ),
-          )),
-    );
-  }
-}
-
-/*
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
@@ -148,4 +112,3 @@ class _SearchScreenState extends State<SearchScreen> {
     );
   }
 }
-*/
